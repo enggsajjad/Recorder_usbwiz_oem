@@ -1,0 +1,51 @@
+WIN32 L51 CODE BANKING LINKER/LOCATOR V4.08.06,  INVOKED BY: 
+L51.EXE e:\p\recorder\2011\recorder4.0\main.OBJ  to  E:\P\RECORDER\2011\RECORDER4.0\RECORDER2V0.ABS PR(E:\P\RECORDER\2011\RECORDER4.0\RECORDER2V0.M51) SN(101K18611C05008A1850A94) PW(80) RS(256) ix 
+
+INTER-MODULE CROSS-REFERENCE LISTING
+------------------------------------
+
+    NAME. . . . . . . . USAGE   MODULE NAMES
+    ----------------------------------------
+    ?C_LADD . . . . . . CODE    [LADD]:  MAIN 
+    ?C_LMUL . . . . . . CODE    [MULL]:  MAIN 
+    ?C_LOP  . . . . . . CODE    [COML]:  LADD 
+    ?C_LSHL . . . . . . CODE    [SHIFT_L]:  MAIN 
+    ?C_SLDIV_SP . . . . CODE    [LONG_SIGNED_DIV_SPEED_OPTIMIZED]:  MAIN 
+    ?C_START3 . . . . . CODE    [C3S]:  MAIN 
+    ?C_ULDIV  . . . . . CODE    [LONG_UNSIGNED_DIV]: 
+    ?C_ULDIV_SP . . . . CODE    [LONG_UNSIGNED_DIV_SPEED_OPTIMIZED]:  MAIN 
+    ?DIV_STORE_Q_SZ . . CODE    [LONG_UNSIGNED_DIV]:  LONG_UNSIGNED_DIV_SPEED_OPTIMIZED 
+    ?LOOP_DIV_SZ  . . . CODE    [LONG_UNSIGNED_DIV]:  LONG_UNSIGNED_DIV_SPEED_OPTIMIZED 
+    DIVL?C_1  . . . . . CODE    [LONG_UNSIGNED_DIV]:  LONG_UNSIGNED_DIV_SPEED_OPTIMIZED 
+    DIVL?C_1_SP . . . . CODE    [LONG_UNSIGNED_DIV_SPEED_OPTIMIZED]:  LONG_SIGNED_DIV_SPEED_OPTIMIZED 
+    FILENAME  . . . . . IDATA   [MAIN]: 
+    FREE_SIZE . . . . . DATA    [MAIN]: 
+    GESI?C  . . . . . . CODE    [GESI]:  LONG_SIGNED_DIV_SPEED_OPTIMIZED, LONG_UNSIGNED_DIV 
+    H . . . . . . . . . DATA    [MAIN]: 
+    IDATALEN  . . . . .         [_C_IDATALEN]:  C3S 
+    IPGN1?C . . . . . . CODE    [IPGN1]:  MAIN 
+    ISINIT  . . . . . . BIT     [MAIN]: 
+    MAIN  . . . . . . . CODE    [MAIN]:  C3S 
+    NIBBLE  . . . . . . DATA    [MAIN]: 
+    NS_AFTER_PACK . . . DATA    [MAIN]: 
+    PERCENT . . . . . . DATA    [MAIN]: 
+    PREDAY  . . . . . . DATA    [MAIN]: 
+    PREHOUR . . . . . . DATA    [MAIN]: 
+    RST_STK4?C  . . . . CODE    [RST_STK]:  LADD, LONG_UNSIGNED_DIV, MULL 
+    RST_STK6?C  . . . . CODE    [RST_STK]: 
+    RST_STK7?C  . . . . CODE    [RST_STK]: 
+    RST_STK?C . . . . . CODE    [RST_STK]: 
+    RTS_FLAG  . . . . . BIT     [MAIN]: 
+    RXBUF . . . . . . . XDATA   [MAIN]: 
+    RXCHR . . . . . . . DATA    [MAIN]: 
+    RXCNT . . . . . . . DATA    [MAIN]: 
+    RXFLAG  . . . . . . BIT     [MAIN]: 
+    RXSTATE . . . . . . DATA    [MAIN]: 
+    SERIAL  . . . . . . CODE    [MAIN]: 
+    STATE . . . . . . . DATA    [MAIN]: 
+    TMP . . . . . . . . DATA    [MAIN]: 
+    TOT_SIZE  . . . . . DATA    [MAIN]: 
+    _INITP2?  . . . . .         [_C_IDATALEN]:  C3S 
+    _SD_WRITECMD  . . . CODE    [MAIN]: 
+    _SENDCHAR . . . . . CODE    [MAIN]: 
+    _STACK  . . . . . . IDATA   [MAIN]:  C3S 

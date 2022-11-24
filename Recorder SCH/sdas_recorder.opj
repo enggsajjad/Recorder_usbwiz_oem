@@ -1,0 +1,60 @@
+(ExpressProject "sdas_recorder"
+  (ProjectVersion "19981106")
+  (ProjectType "PCB")
+  (Folder "Design Resources"
+    (Folder "Library")
+    (NoModify)
+    (File ".\sdas_recorder.dsn"
+      (Type "Schematic Design"))
+    (BuildFileAddedOrDeleted "x")
+    (CompileFileAddedOrDeleted "x"))
+  (Folder "Outputs")
+  (Folder "Referenced Projects")
+  (PartMRUSelector
+    (74HC125
+      (FullPartName "74HC125.Normal")
+      (LibraryName
+         "D:\INSTALLED\ORCAD_10.5\TOOLS\CAPTURE\LIBRARY\PSPICE\74HC.OLB")
+      (DeviceIndex "0"))
+    (RES
+      (FullPartName "RES.Normal")
+      (LibraryName
+         "C:\ORCAD\ORCAD_10.5\TOOLS\CAPTURE\LIBRARY\OLDLIBS\PSPICE.OLB")
+      (DeviceIndex "0"))
+    ("HEADER 18/SM"
+      (FullPartName "HEADER 18/SM.Normal")
+      (LibraryName
+         "D:\INSTALLED\ORCAD_10.5\TOOLS\CAPTURE\LIBRARY\CONNECTOR.OLB")
+      (DeviceIndex "0"))
+    (CON3
+      (FullPartName "CON3.Normal")
+      (LibraryName
+         "C:\ORCAD\ORCAD_10.5\TOOLS\CAPTURE\LIBRARY\OLDLIBS\DEVICE.OLB")
+      (DeviceIndex "0")))
+  (LastUsedLibraryBrowseDirectory
+     "D:\Installed\OrCAD_10.5\tools\capture\library")
+  (GlobalState
+    (FileView
+      (Path "Design Resources")
+      (Path "Design Resources" "F:\SDAS\Recorder SCH\sdas_recorder.dsn")
+      (Path "Design Resources" "F:\SDAS\Recorder SCH\sdas_recorder.dsn"
+         "SCHEMATIC1")
+      (Select "Design Resources" "F:\SDAS\Recorder SCH\sdas_recorder.dsn"
+         "SCHEMATIC1" "ver2"))
+    (HierarchyView)
+    (Doc
+      (Type "COrCapturePMDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -4 -23 0 200 0 467"))
+      (Tab 0))
+    (Doc
+      (Type "COrSchematicDoc")
+      (Frame
+        (Placement "44 2 3 -1 -1 -4 -23 44 950 44 542")
+        (Scroll "0 0")
+        (Zoom "85")
+        (Occurrence "/"))
+      (Path "F:\SDAS\RECORDER SCH\SDAS_RECORDER.DSN")
+      (Schematic "SCHEMATIC1")
+      (Page "ver2")))
+  (MPSSessionName "Sajjad"))
